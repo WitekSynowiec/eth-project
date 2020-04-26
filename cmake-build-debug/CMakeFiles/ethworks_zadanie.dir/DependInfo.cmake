@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/ClassName.cpp" "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o"
   "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/test.cpp" "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o"
-  "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/main.cpp" "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles/ethworks_zadanie.dir/main.cpp.o"
+  "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Expression.cpp" "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o"
+  "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Variable.cpp" "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o"
+  "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/addExpression.cpp" "/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

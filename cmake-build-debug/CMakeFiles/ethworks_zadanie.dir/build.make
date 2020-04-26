@@ -57,35 +57,9 @@ include CMakeFiles/ethworks_zadanie.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ethworks_zadanie.dir/flags.make
 
-CMakeFiles/ethworks_zadanie.dir/main.cpp.o: CMakeFiles/ethworks_zadanie.dir/flags.make
-CMakeFiles/ethworks_zadanie.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ethworks_zadanie.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethworks_zadanie.dir/main.cpp.o -c /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/main.cpp
-
-CMakeFiles/ethworks_zadanie.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethworks_zadanie.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/main.cpp > CMakeFiles/ethworks_zadanie.dir/main.cpp.i
-
-CMakeFiles/ethworks_zadanie.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethworks_zadanie.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/main.cpp -o CMakeFiles/ethworks_zadanie.dir/main.cpp.s
-
-CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o: CMakeFiles/ethworks_zadanie.dir/flags.make
-CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o: ../Tests/ClassName.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o -c /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/ClassName.cpp
-
-CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/ClassName.cpp > CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.i
-
-CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/ClassName.cpp -o CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.s
-
 CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o: CMakeFiles/ethworks_zadanie.dir/flags.make
 CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o: ../Tests/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o -c /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/test.cpp
 
 CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.i: cmake_force
@@ -96,24 +70,65 @@ CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/test.cpp -o CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.s
 
+CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o: CMakeFiles/ethworks_zadanie.dir/flags.make
+CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o: ../com/Variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o -c /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Variable.cpp
+
+CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Variable.cpp > CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.i
+
+CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Variable.cpp -o CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.s
+
+CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o: CMakeFiles/ethworks_zadanie.dir/flags.make
+CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o: ../com/Expression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o -c /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Expression.cpp
+
+CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Expression.cpp > CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.i
+
+CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Expression.cpp -o CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.s
+
+CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o: CMakeFiles/ethworks_zadanie.dir/flags.make
+CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o: ../com/addExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o -c /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/addExpression.cpp
+
+CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/addExpression.cpp > CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.i
+
+CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/addExpression.cpp -o CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.s
+
 # Object files for target ethworks_zadanie
 ethworks_zadanie_OBJECTS = \
-"CMakeFiles/ethworks_zadanie.dir/main.cpp.o" \
-"CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o" \
-"CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o"
+"CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o" \
+"CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o" \
+"CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o" \
+"CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o"
 
 # External object files for target ethworks_zadanie
 ethworks_zadanie_EXTERNAL_OBJECTS =
 
-ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/main.cpp.o
-ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o
 ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.o
+ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o
+ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o
+ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o
 ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/build.make
 ethworks_zadanie: lib/libgtestd.a
 ethworks_zadanie: lib/libgtest_maind.a
 ethworks_zadanie: lib/libgtestd.a
 ethworks_zadanie: CMakeFiles/ethworks_zadanie.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ethworks_zadanie"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ethworks_zadanie"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ethworks_zadanie.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

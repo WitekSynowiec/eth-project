@@ -221,33 +221,6 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-Tests/ClassName.o: Tests/ClassName.cpp.o
-
-.PHONY : Tests/ClassName.o
-
-# target to build an object file
-Tests/ClassName.cpp.o:
-	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.o
-.PHONY : Tests/ClassName.cpp.o
-
-Tests/ClassName.i: Tests/ClassName.cpp.i
-
-.PHONY : Tests/ClassName.i
-
-# target to preprocess a source file
-Tests/ClassName.cpp.i:
-	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.i
-.PHONY : Tests/ClassName.cpp.i
-
-Tests/ClassName.s: Tests/ClassName.cpp.s
-
-.PHONY : Tests/ClassName.s
-
-# target to generate assembly for a file
-Tests/ClassName.cpp.s:
-	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/Tests/ClassName.cpp.s
-.PHONY : Tests/ClassName.cpp.s
-
 Tests/test.o: Tests/test.cpp.o
 
 .PHONY : Tests/test.o
@@ -275,32 +248,86 @@ Tests/test.cpp.s:
 	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/Tests/test.cpp.s
 .PHONY : Tests/test.cpp.s
 
-main.o: main.cpp.o
+com/Expression.o: com/Expression.cpp.o
 
-.PHONY : main.o
+.PHONY : com/Expression.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/main.cpp.o
-.PHONY : main.cpp.o
+com/Expression.cpp.o:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.o
+.PHONY : com/Expression.cpp.o
 
-main.i: main.cpp.i
+com/Expression.i: com/Expression.cpp.i
 
-.PHONY : main.i
+.PHONY : com/Expression.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/main.cpp.i
-.PHONY : main.cpp.i
+com/Expression.cpp.i:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.i
+.PHONY : com/Expression.cpp.i
 
-main.s: main.cpp.s
+com/Expression.s: com/Expression.cpp.s
 
-.PHONY : main.s
+.PHONY : com/Expression.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/main.cpp.s
-.PHONY : main.cpp.s
+com/Expression.cpp.s:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/Expression.cpp.s
+.PHONY : com/Expression.cpp.s
+
+com/Variable.o: com/Variable.cpp.o
+
+.PHONY : com/Variable.o
+
+# target to build an object file
+com/Variable.cpp.o:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.o
+.PHONY : com/Variable.cpp.o
+
+com/Variable.i: com/Variable.cpp.i
+
+.PHONY : com/Variable.i
+
+# target to preprocess a source file
+com/Variable.cpp.i:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.i
+.PHONY : com/Variable.cpp.i
+
+com/Variable.s: com/Variable.cpp.s
+
+.PHONY : com/Variable.s
+
+# target to generate assembly for a file
+com/Variable.cpp.s:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/Variable.cpp.s
+.PHONY : com/Variable.cpp.s
+
+com/addExpression.o: com/addExpression.cpp.o
+
+.PHONY : com/addExpression.o
+
+# target to build an object file
+com/addExpression.cpp.o:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.o
+.PHONY : com/addExpression.cpp.o
+
+com/addExpression.i: com/addExpression.cpp.i
+
+.PHONY : com/addExpression.i
+
+# target to preprocess a source file
+com/addExpression.cpp.i:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.i
+.PHONY : com/addExpression.cpp.i
+
+com/addExpression.s: com/addExpression.cpp.s
+
+.PHONY : com/addExpression.s
+
+# target to generate assembly for a file
+com/addExpression.cpp.s:
+	$(MAKE) -f CMakeFiles/ethworks_zadanie.dir/build.make CMakeFiles/ethworks_zadanie.dir/com/addExpression.cpp.s
+.PHONY : com/addExpression.cpp.s
 
 # Help Target
 help:
@@ -319,15 +346,18 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... Tests/ClassName.o"
-	@echo "... Tests/ClassName.i"
-	@echo "... Tests/ClassName.s"
 	@echo "... Tests/test.o"
 	@echo "... Tests/test.i"
 	@echo "... Tests/test.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... com/Expression.o"
+	@echo "... com/Expression.i"
+	@echo "... com/Expression.s"
+	@echo "... com/Variable.o"
+	@echo "... com/Variable.i"
+	@echo "... com/Variable.s"
+	@echo "... com/addExpression.o"
+	@echo "... com/addExpression.i"
+	@echo "... com/addExpression.s"
 .PHONY : help
 
 

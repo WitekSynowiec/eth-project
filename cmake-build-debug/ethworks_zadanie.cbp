@@ -308,16 +308,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/ClassName.cpp">
-			<Option target="ethworks_zadanie"/>
-		</Unit>
-		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/ClassName.h">
-			<Option target="ethworks_zadanie"/>
-		</Unit>
 		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/test.cpp">
 			<Option target="ethworks_zadanie"/>
 		</Unit>
 		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/Tests/test.h">
+			<Option target="ethworks_zadanie"/>
+		</Unit>
+		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Expression.cpp">
+			<Option target="ethworks_zadanie"/>
+		</Unit>
+		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Expression.h">
+			<Option target="ethworks_zadanie"/>
+		</Unit>
+		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Variable.cpp">
+			<Option target="ethworks_zadanie"/>
+		</Unit>
+		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/Variable.h">
+			<Option target="ethworks_zadanie"/>
+		</Unit>
+		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/addExpression.cpp">
+			<Option target="ethworks_zadanie"/>
+		</Unit>
+		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/com/addExpression.h">
 			<Option target="ethworks_zadanie"/>
 		</Unit>
 		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/lib/googletest-master/googlemock/src/gmock-all.cc">
@@ -331,9 +343,6 @@
 		</Unit>
 		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/lib/googletest-master/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
-		</Unit>
-		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/main.cpp">
-			<Option target="ethworks_zadanie"/>
 		</Unit>
 		<Unit filename="/Users/WitoldSynowiec/CLionProjects/ethworks-zadanie/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
