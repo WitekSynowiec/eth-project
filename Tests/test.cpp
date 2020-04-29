@@ -4,6 +4,17 @@
 #include "gtest/gtest.h"
 #include "../com/main.cpp"
 
+/**
+ * In odrer to add new tests copy
+    TEST(TestApp, test1) {
+    expr1 = "2x^3+4x^6";
+    expr2 = "5x^3-2x^6";
+    EXPECT_EQ(addExpression(expr1, expr2), std::string("7x^3+2x^6"));
+    }
+    and add it at the end of the file. Remember to change test name from test1 as it is not possible to run two same-name test
+ */
+
+
 std::string expr1;
 std::string expr2;
 
