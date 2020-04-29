@@ -22,12 +22,15 @@ std::string addExpression(std::string& fir, std::string& sec)
     for(auto & i : x.expression)
     {
         if (i.getMultiNum()>=0) result.append("+");
-        if (i.getMultiNum()!=1)
+        if (i.getMultiNum()!=1&&i.getMultiNum()!=-1)
         {
             num = std::to_string(i.getMultiNum());
             num.erase ( num.find_last_not_of('0') + 1, std::string::npos );
             num.erase ( num.find_last_not_of('.') + 1, std::string::npos );
             result.append(num);
+        }
+        if (i.getMultiNum()==-1){
+            result.append("-");
         }
         result.append(i.getVarName());
         if (i.getPowNum()!=1)
