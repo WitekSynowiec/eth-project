@@ -12,6 +12,9 @@
     EXPECT_EQ(addExpression(expr1, expr2), std::string("7x^3+2x^6"));
     }
     and add it at the end of the file. Remember to change test name from test1 as it is not possible to run two same-name test
+
+    In order to receive good answer remember that alghoritm merge two strings, expr1 and expr2 and reorganises them in manner in which variable count of the first occurance is augmented or diminished, while second is removed.
+    I.e. 2x^3+4x^6; 5x^3-2x^6 first step will me: 2x^3+4x^6 + 5x^3-2x^6 and next 7x^3+4x^6  -  2x^6 which is the result.
  */
 
 
