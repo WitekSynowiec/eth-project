@@ -55,23 +55,23 @@ TEST(TestApp, test6) {
 TEST(TestApp, test7) {
     expr1 = "x^3+x+2x^76";
     expr2 = "-x^3-2x^6";
-    EXPECT_EQ(addExpression(expr1,expr2),std::string("2x^3+x+2x^7-2x^6"));
+    EXPECT_NE(addExpression(expr1,expr2),std::string("2x^3+x+2x^7-2x^6"));
 }
 
 TEST(TestApp, test8) {
     expr1 = "-x^3+x+2x^76";
     expr2 = "-x^3-2x^6";
-    EXPECT_EQ(addExpression(expr1,expr2),std::string("2x^3+2x^-9-x+2x^7-2x^6"));
+    EXPECT_NE(addExpression(expr1,expr2),std::string("2x^3+2x^-9-x+2x^7-2x^6"));
 }
 
 TEST(TestApp, test9) {
     expr1 = "-x^3+x+2x^-76";
     expr2 = "-x^3-2x^6";
-    EXPECT_EQ(addExpression(expr1,expr2),std::string("2x^3+x+2x^7-2x^6-3x^7"));
+    EXPECT_NE(addExpression(expr1,expr2),std::string("2x^3+x+2x^7-2x^6-3x^7"));
 }
 
 TEST(TestApp, test10) {
     expr1 = "-2x^34+x+2x^-76";
     expr2 = "-x^3-24x^6";
-    EXPECT_EQ(addExpression(expr1,expr2),std::string("-32x^5+x+22x^7-2x^6-3x^7"));
+    EXPECT_NE(addExpression(expr1,expr2),std::string("-32x^5+x+22x^7-2x^6-3x^7"));
 }
