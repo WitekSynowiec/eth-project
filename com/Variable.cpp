@@ -30,7 +30,7 @@ Variable::Variable(const std::string &input) {
         var_name = input.substr(first_char, pow_pos - first_char);
     }
     catch (std::out_of_range) {
-        std::cout << "Out of range. Propably used non alpha char in expression." << std::endl;
+//        std::cout << "Out of range. Propably used non alpha char in expression." << std::endl;
     }
 
 
