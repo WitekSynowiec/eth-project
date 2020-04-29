@@ -13,4 +13,4 @@ Project contains google test files that arestored in the lib folder. The source 
 In order to add new tests it is suggested to look into test.cpp file in which there are instructions.
 
 #########
-<b>IMPORTANT!</br> files are written on UNIX system that means it may be necessary for windows users to change slash to backslash in all files. It’s often possible in many IDEs to ctrl+shift+r/ctrl+shift+f to replace all occurances.  
+<b>IMPORTANT!</b> files are written on UNIX system that means it may be necessary for windows users to change slash to backslash in all files. It’s often possible in many IDEs to ctrl+shift+r/ctrl+shift+f to replace all occurances.  
