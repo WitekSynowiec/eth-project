@@ -1,6 +1,7 @@
 # eth-project
 for ethworks recruit task
-author: Witek Synowiec
+
+<b>author:</b> Witek Synowiec
 
 about: Project adds two strings that contains mathematic expressions. 
 
